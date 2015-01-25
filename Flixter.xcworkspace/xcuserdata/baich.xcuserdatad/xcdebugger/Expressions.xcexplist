@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MovieViewController tableView:cellForRowAtIndexPath:]:MovieViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageDict[[movie valueForKeyPath:@&quot;ratings.critics_rating&quot;]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MovieDetailViewController viewDidLoad]:MovieDetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.detailsView.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
