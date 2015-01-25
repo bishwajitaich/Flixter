@@ -23,3 +23,6 @@ Optional
 * [x] For the large poster, load the low-res image first, switch to high-res when complete.
 * [ ] Customize the highlight and selection effect of the cell.
 * [x] Customize the navigation bar.
+
+
+![flixter](https://cloud.githubusercontent.com/assets/4771383/5891491/46d3b6d4-a44d-11e4-810e-1cc8f51fa434.gif)
