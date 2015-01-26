@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MovieViewController.h"
+#import "DVDViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,10 +23,26 @@
     // Set the status bar to white color
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
-    MovieViewController *vc = [[MovieViewController alloc] init];
-    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    MovieViewController *mvc = [[MovieViewController alloc] init];
+    UINavigationController *mnvc = [[UINavigationController alloc] initWithRootViewController:mvc];
+    UIImage* movieImage = [UIImage imageNamed:@"movie.png"];
+    UITabBarItem* movieItem = [[UITabBarItem alloc] initWithTitle:@"Movies" image:movieImage tag:0];
+    mnvc.tabBarItem = movieItem;
+
+    DVDViewController *dvc = [[DVDViewController alloc] init];
+    UINavigationController *dnvc = [[UINavigationController alloc] initWithRootViewController:dvc];
+    UIImage* dvdImage = [UIImage imageNamed:@"dvd.png"];
+    UITabBarItem* dvdItem = [[UITabBarItem alloc] initWithTitle:@"DVDs" image:dvdImage tag:0];
+    dnvc.tabBarItem = dvdItem;
     
-    self.window.rootViewController = nvc;
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    NSArray* controllers = [NSArray arrayWithObjects:mnvc, dnvc, nil];
+    tabBarController.viewControllers = controllers;
+    
+    tabBarController.tabBar.tintColor = [UIColor yellowColor];
+    tabBarController.tabBar.barTintColor = [UIColor blackColor];
+    self.window.rootViewController = tabBarController;
     
     [self.window makeKeyAndVisible];
     return YES;

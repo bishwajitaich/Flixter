@@ -6,8 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieViewController">
             <connections>
-                <outlet property="alertImage" destination="Swe-Ol-3WF" id="QBU-Gd-Rgf"/>
-                <outlet property="errorViewCell" destination="p5y-Dj-yjM" id="Ny8-cz-Dle"/>
+                <outlet property="alertImage" destination="Swe-Ol-3WF" id="BDx-CX-nUd"/>
+                <outlet property="errorViewCell" destination="p5y-Dj-yjM" id="bbU-Fn-N1q"/>
                 <outlet property="searchBar" destination="72Z-84-xpr" id="BRJ-bW-hK6"/>
                 <outlet property="tableView" destination="ne2-UA-r1L" id="Wup-fu-Bb4"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

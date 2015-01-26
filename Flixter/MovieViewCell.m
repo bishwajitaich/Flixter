@@ -20,4 +20,19 @@
     // Configure the view for the selected state
 }
 
+- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
+{
+    if (highlighted) {
+        self.backgroundColor = [UIColor yellowColor];
+        self.movieTitle.textColor = [UIColor blackColor];
+        self.movieSynopsys.textColor = [UIColor blackColor];
+        self.mpaa_ratings.textColor = [UIColor blackColor];
+    } else {
+        self.backgroundColor = [UIColor blackColor];
+        self.movieTitle.textColor = [UIColor whiteColor];
+        self.movieSynopsys.textColor = [UIColor whiteColor];
+        self.mpaa_ratings.textColor = [UIColor whiteColor];
+    }
+}
+
 @end

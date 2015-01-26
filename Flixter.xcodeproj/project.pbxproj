@@ -16,6 +16,8 @@
 		5088CB881A72E06E001AA0EE /* FlixterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5088CB871A72E06E001AA0EE /* FlixterTests.m */; };
 		5088CB941A72E09F001AA0EE /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5088CB921A72E09F001AA0EE /* MovieViewController.m */; };
 		5088CB951A72E09F001AA0EE /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5088CB931A72E09F001AA0EE /* MovieViewController.xib */; };
+		50BF322A1A7605A100E201A2 /* DVDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BF32281A7605A100E201A2 /* DVDViewController.m */; };
+		50BF322B1A7605A100E201A2 /* DVDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BF32291A7605A100E201A2 /* DVDViewController.xib */; };
 		50D8D2D21A746323006D11B8 /* MovieViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D8D2D01A746323006D11B8 /* MovieViewCell.m */; };
 		50D8D2D31A746323006D11B8 /* MovieViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D8D2D11A746323006D11B8 /* MovieViewCell.xib */; };
 		D055CB1E3469908F0FDCF7BF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D4696FD7EB63D918C62F90 /* libPods.a */; };
@@ -49,6 +51,9 @@
 		5088CB911A72E09F001AA0EE /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		5088CB921A72E09F001AA0EE /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
 		5088CB931A72E09F001AA0EE /* MovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
+		50BF32271A7605A100E201A2 /* DVDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDViewController.h; sourceTree = "<group>"; };
+		50BF32281A7605A100E201A2 /* DVDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDViewController.m; sourceTree = "<group>"; };
+		50BF32291A7605A100E201A2 /* DVDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVDViewController.xib; sourceTree = "<group>"; };
 		50D8D2CF1A746323006D11B8 /* MovieViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewCell.h; sourceTree = "<group>"; };
 		50D8D2D01A746323006D11B8 /* MovieViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewCell.m; sourceTree = "<group>"; };
 		50D8D2D11A746323006D11B8 /* MovieViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieViewCell.xib; sourceTree = "<group>"; };
@@ -120,6 +125,9 @@
 				505F02631A74C54200A1EF6D /* MovieDetailViewController.h */,
 				505F02641A74C54200A1EF6D /* MovieDetailViewController.m */,
 				505F02651A74C54200A1EF6D /* MovieDetailViewController.xib */,
+				50BF32271A7605A100E201A2 /* DVDViewController.h */,
+				50BF32281A7605A100E201A2 /* DVDViewController.m */,
+				50BF32291A7605A100E201A2 /* DVDViewController.xib */,
 			);
 			path = Flixter;
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				505F02671A74C54200A1EF6D /* MovieDetailViewController.xib in Resources */,
+				50BF322B1A7605A100E201A2 /* DVDViewController.xib in Resources */,
 				5088CB951A72E09F001AA0EE /* MovieViewController.xib in Resources */,
 				50D8D2D31A746323006D11B8 /* MovieViewCell.xib in Resources */,
 				5088CB7C1A72E06E001AA0EE /* LaunchScreen.xib in Resources */,
@@ -301,6 +310,7 @@
 				50D8D2D21A746323006D11B8 /* MovieViewCell.m in Sources */,
 				5088CB941A72E09F001AA0EE /* MovieViewController.m in Sources */,
 				5088CB6E1A72E06E001AA0EE /* main.m in Sources */,
+				50BF322A1A7605A100E201A2 /* DVDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
