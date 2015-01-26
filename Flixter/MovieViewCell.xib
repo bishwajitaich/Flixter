@@ -36,7 +36,7 @@
                         <rect key="frame" x="126" y="31" width="16" height="16"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PG-13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8v-WE-BEq">
-                        <rect key="frame" x="147" y="29" width="33" height="21"/>
+                        <rect key="frame" x="147" y="29" width="86" height="21"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                         <color key="textColor" red="0.94831123737373735" green="0.94831123737373735" blue="0.94831123737373735" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>

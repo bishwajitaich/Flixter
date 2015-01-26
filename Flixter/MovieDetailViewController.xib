@@ -52,7 +52,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PG-13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RdZ-3b-wzH">
-                                    <rect key="frame" x="66" y="42" width="33" height="21"/>
+                                    <rect key="frame" x="66" y="42" width="79" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                     <color key="textColor" red="0.94831123740000001" green="0.94831123740000001" blue="0.94831123740000001" alpha="1" colorSpace="calibratedRGB"/>
